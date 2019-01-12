@@ -7,6 +7,7 @@ import { ToastController } from 'ionic-angular';
   templateUrl: 'about.html'
 })
 export class AboutPage {
+  
   options = ['cash', 'creditCard', 'check', 'writeOff'];
   optionsDetails = {
     'cash' : {

@@ -63,7 +63,7 @@ var TabsPage = /** @class */ (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/var/www/ionic/tema8/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/var/www/ionic/tema8/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/var/www/ionic/tema8/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Toasts" tabIcon="alert"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/var/www/ionic/tema8/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -133,12 +133,11 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/var/www/ionic/tema8/src/pages/about/about.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Toast</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item *ngFor="let option of options">\n    <button ion-button block color="{{ optionsDetails[option].color }}" (click)="showToast(optionsDetails[option].name)" >\n        <ion-icon name="{{ optionsDetails[option].icon }}"></ion-icon> &nbsp;	\n      {{ optionsDetails[option].name }}\n    </button>\n  </ion-item>\n  <!-- <button ion-button block (click)="showToast(\'top\')">Show Toast Top Position</button> -->\n  <!-- <button ion-button block (click)="showToast(\'middle\')">Show Toast Middle Position</button> -->\n  <!-- <button ion-button block margin-bottom (click)="showLongToast()">Show Long Toast</button> -->\n\n  <!-- <button ion-button block (click)="showDismissDurationToast()">Show Custom Duration Toast</button> -->\n  <!-- <button ion-button block (click)="showToastWithCloseButton()">Show Close Button Toast</button> -->\n\n</ion-content>'/*ion-inline-end:"/var/www/ionic/tema8/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/var/www/ionic/tema8/src/pages/about/about.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Toast</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item *ngFor="let option of options">\n    <button ion-button block color="{{ optionsDetails[option].color }}" (click)="showToast(optionsDetails[option].name)" >\n        <ion-icon name="{{ optionsDetails[option].icon }}"></ion-icon> &nbsp;	\n      {{ optionsDetails[option].name }}\n    </button>\n  </ion-item>\n\n</ion-content>'/*ion-inline-end:"/var/www/ionic/tema8/src/pages/about/about.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ToastController */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ToastController */]])
     ], AboutPage);
     return AboutPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=about.js.map
